@@ -8,9 +8,11 @@ import { Route } from "react-router-dom";
 const App = () => (
   <div>
     <Navigation />
+    {/* // Declarative - I have a Route that, when it is at the url path /About, it will render the component About  */}
+    {/* // Be sure to add 'exact' prop to home page so home component wont still render when youre on other pages  */}
     <Route path="/" exact component={Home} />
-    <Route path="/about/" component={About} />
-    <Route path="/contact/" component={Contact} />
+    <Route path="/About/" component={About} />
+    <Route path="/Contact/" component={Contact} />
   </div>
 );
 
