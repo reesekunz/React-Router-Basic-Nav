@@ -8,7 +8,7 @@ import { BrowserRouter as Router } from "react-router-dom";
 
 
 ReactDOM.render(
-// wrap your app with the router - renames component to router inside file 
+// wrap your app with the router - we can now use react router inside our application 
 <Router>
 <App />
 </Router>,
